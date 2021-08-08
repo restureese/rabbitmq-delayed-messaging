@@ -1,8 +1,3 @@
-"""
-    @Author varx
-    @Date 07/08/21 21.42
-    @Describe 
-"""
 import pika
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
